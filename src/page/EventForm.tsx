@@ -292,6 +292,9 @@ const Field = styled.div`
     font-size: 1rem;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 900px) {
+      width: 55vw;
+    }
 }
 option{
     width: 20vw;
